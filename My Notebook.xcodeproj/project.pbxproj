@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A6ABD7D12CD2049B2592997 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AB498F8FA1B8D33E504CE /* NoteDetailViewController.swift */; };
 		493119642245840900DC565E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493119632245840900DC565E /* AppDelegate.swift */; };
 		493119662245840900DC565E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493119652245840900DC565E /* ViewController.swift */; };
 		493119692245840900DC565E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493119672245840900DC565E /* Main.storyboard */; };
 		4931196B2245840900DC565E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4931196A2245840900DC565E /* Assets.xcassets */; };
 		4931196E2245840900DC565E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4931196C2245840900DC565E /* LaunchScreen.storyboard */; };
+		49C5C5BF2246D4F700DA02C4 /* NoteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5C5BE2246D4F700DA02C4 /* NoteListTableViewController.swift */; };
+		49C5C5C22246DB3800DA02C4 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C5C5C12246DB3800DA02C4 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A6AB498F8FA1B8D33E504CE /* NoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 		493119602245840900DC565E /* My Notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Notebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		493119632245840900DC565E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		493119652245840900DC565E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		4931196A2245840900DC565E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4931196D2245840900DC565E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4931196F2245840900DC565E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C5C5BE2246D4F700DA02C4 /* NoteListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListTableViewController.swift; sourceTree = "<group>"; };
+		49C5C5C12246DB3800DA02C4 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		493119622245840900DC565E /* My Notebook */ = {
 			isa = PBXGroup;
 			children = (
+				49C5C5C02246DB2A00DA02C4 /* model */,
 				493119632245840900DC565E /* AppDelegate.swift */,
 				493119652245840900DC565E /* ViewController.swift */,
+				49C5C5BE2246D4F700DA02C4 /* NoteListTableViewController.swift */,
 				493119672245840900DC565E /* Main.storyboard */,
 				4931196A2245840900DC565E /* Assets.xcassets */,
 				4931196C2245840900DC565E /* LaunchScreen.storyboard */,
 				4931196F2245840900DC565E /* Info.plist */,
+				1A6AB498F8FA1B8D33E504CE /* NoteDetailViewController.swift */,
 			);
 			path = "My Notebook";
+			sourceTree = "<group>";
+		};
+		49C5C5C02246DB2A00DA02C4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				49C5C5C12246DB3800DA02C4 /* Note.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				493119662245840900DC565E /* ViewController.swift in Sources */,
+				49C5C5BF2246D4F700DA02C4 /* NoteListTableViewController.swift in Sources */,
 				493119642245840900DC565E /* AppDelegate.swift in Sources */,
+				49C5C5C22246DB3800DA02C4 /* Note.swift in Sources */,
+				1A6ABD7D12CD2049B2592997 /* NoteDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  My Notebook
 //
-//  Created by Martin Løseth Jensen on 22/03/2019.
+//  Created by Martin Løseth Jensen on 23/03/2019.
 //  Copyright © 2019 Martin Løseth Jensen. All rights reserved.
 //
 
